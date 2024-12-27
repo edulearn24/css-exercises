@@ -1,0 +1,19 @@
+/* styles.css for index.html the goal is to achieve the correct usage of classes and IDs. */
+
+
+
+.odd-numbers {
+    background-color: pink; font-family: Verdana; font-family: sans-serif;
+    }
+
+#number2 {
+    color: blue; font-size: 36px;
+}
+
+#number4 {
+    background-color: lightgreen; font-size: 24px; font-weight: bold;
+}
+
+.odd-numbers.number3 {
+    font-size: 24px;
+}
