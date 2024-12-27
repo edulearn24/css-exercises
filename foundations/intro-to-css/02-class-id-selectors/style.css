@@ -6,14 +6,14 @@
     background-color: pink; font-family: Verdana; font-family: sans-serif;
     }
 
+.adjust-font-size {
+    font-size: 24px;
+}
+
 #number2 {
     color: blue; font-size: 36px;
 }
 
 #number4 {
     background-color: lightgreen; font-size: 24px; font-weight: bold;
-}
-
-.odd-numbers.number3 {
-    font-size: 24px;
 }
