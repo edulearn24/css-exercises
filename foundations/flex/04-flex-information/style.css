@@ -1,11 +1,11 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center; /* to get the text centered; I had a margin on img before, which is wrong for this assignment */
 }
 
 img {
   width: 100px;
   height: 100px;
-  margin-left: 52px;
 }
 
 .title {
@@ -13,19 +13,17 @@ img {
   font-weight: 900;
   display: flex;
   justify-content: center;
-  margin: 0 0 32px 0;
+  margin-bottom: 32px; /* I have used margin: "0 0 32px 0" before, but its easier to target the attribut directly */
 }
 
-.plants {
+.container {
   display: flex;
-  flex: auto;
   justify-content: center;
   gap: 52px;
 }
 
-.text {
-  width: 200px;
-  text-align: center;
+.plants {
+  max-width: 200px; /* before had a max-width on the .text class, but it should be defined in the container, not the flex item */
 }
 
 
